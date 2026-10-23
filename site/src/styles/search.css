@@ -1,0 +1,11 @@
+/* CSS styles for returned content */
+.returned-content {
+    margin-top: 20px; /* Add margin to prevent pushing everything to the top */
+    max-height: 400px; /* Limit the maximum height of the content */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds max-height */
+}
+
+.returned-content-pre {
+    white-space: pre-wrap; /* Preserve line breaks and wrap long lines */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+}
